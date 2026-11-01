@@ -1,0 +1,9 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+.env
+.DS_Store
+tourism_project/artifacts/
+tourism_project/mlruns/
+# Model intentionally committed by GitHub Actions for Streamlit deployment.
