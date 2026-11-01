@@ -1,0 +1,99 @@
+{
+  "Age": {
+    "kind": "number",
+    "minimum": 18.0,
+    "maximum": 61.0,
+    "default": 36.0,
+    "integer": true
+  },
+  "CityTier": {
+    "kind": "number",
+    "minimum": 1.0,
+    "maximum": 3.0,
+    "default": 1.0,
+    "integer": true
+  },
+  "Occupation": {
+    "kind": "category",
+    "choices": [
+      "Free Lancer",
+      "Large Business",
+      "Salaried",
+      "Small Business"
+    ]
+  },
+  "Gender": {
+    "kind": "category",
+    "choices": [
+      "Female",
+      "Male"
+    ]
+  },
+  "NumberOfPersonVisiting": {
+    "kind": "number",
+    "minimum": 1.0,
+    "maximum": 5.0,
+    "default": 3.0,
+    "integer": true
+  },
+  "PreferredPropertyStar": {
+    "kind": "number",
+    "minimum": 3.0,
+    "maximum": 5.0,
+    "default": 3.0,
+    "integer": true
+  },
+  "MaritalStatus": {
+    "kind": "category",
+    "choices": [
+      "Divorced",
+      "Married",
+      "Single"
+    ]
+  },
+  "NumberOfTrips": {
+    "kind": "number",
+    "minimum": 1.0,
+    "maximum": 21.0,
+    "default": 3.0,
+    "integer": true
+  },
+  "Passport": {
+    "kind": "number",
+    "minimum": 0.0,
+    "maximum": 1.0,
+    "default": 0.0,
+    "integer": true
+  },
+  "OwnCar": {
+    "kind": "number",
+    "minimum": 0.0,
+    "maximum": 1.0,
+    "default": 1.0,
+    "integer": true
+  },
+  "NumberOfChildrenVisiting": {
+    "kind": "number",
+    "minimum": 0.0,
+    "maximum": 3.0,
+    "default": 1.0,
+    "integer": true
+  },
+  "Designation": {
+    "kind": "category",
+    "choices": [
+      "AVP",
+      "Executive",
+      "Manager",
+      "Senior Manager",
+      "VP"
+    ]
+  },
+  "MonthlyIncome": {
+    "kind": "number",
+    "minimum": 1000.0,
+    "maximum": 98678.0,
+    "default": 22403.0,
+    "integer": true
+  }
+}
